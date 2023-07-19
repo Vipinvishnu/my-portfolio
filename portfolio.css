@@ -1,0 +1,125 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+.nav-item:hover{
+    text-decoration: underline 2px black ;
+    
+}
+#img1:hover{
+     /* transform: rotate(45deg); */
+     /* transform: rotate3d(45deg); */
+     /* transform: skew(20deg); */
+     transform: skew(30deg);
+
+}
+.fa-brands{
+    font-size:xx-large;
+    padding-right: 20px;
+   
+    height: 50px;
+    color: black;
+}
+.progress{
+   justify-content: space-between;
+}
+
+.img1{
+    box-shadow: 1px 2px 6px 3px #0a9cdb;
+}
+.img1:hover{
+    transform: scale(0.9);
+    transition: all .5s ease;
+}
+
+.social-media i{
+ display:inline-flex;
+ height: 50px;
+ width:50px;
+ font-size: 32px;
+
+}
+.social-media i:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in;
+}
+
+a {
+    text-decoration: none;
+ }
+
+@media(max-width:768px){
+    .right>h3{
+        margin-top: 40px;
+    }
+}
+.card{
+    
+    border:1px solid rgb(31, 94, 121);
+    box-shadow: 1px 2px 6px 3px #0f1213;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+.btn-primary{
+    box-shadow: 1px 2px 6px 3px #0a9cdb;
+}
+
+
+.contact{
+    min-height: auto;
+}
+.contact form{
+    text-align: center;
+
+}
+
+/* .contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.contact form .input-box .input-field{
+    position: relative;
+    width:100%;
+    margin: .8rem 0;
+}
+.contact form .input-box .input-field input,
+.contact form .textarea-fld textarea{
+    width: 50%;
+    
+    padding:10px;
+    font-size: 15px;
+    border-radius: .6rem;
+     font-weight: 800;
+   border:2px solid rgb(9, 11, 12);
+/* }  */
+
+ /* .btn-box .btn{
+    background: rgba(22, 119, 176, 0.813);
+    color:white;
+    text-decoration: none;
+    border:2px solid rgb(7, 164, 232);
+ height:100%;
+ border-radius: 12px;
+ padding-bottom:10px;
+ /* padding-top: 15px; */
+ /* padding:10px 15px; */
+ /* font-weight: bolder; */
+
+ /* text-transform: uppercase; */
+ /* font-size:15p;  */
+/* } */
+
+/* .btn-box .btn:hover{
+    box-shadow: 1px 2px 6px 3px #0b1114;
+
+} */
